@@ -1,0 +1,51 @@
+GIT
+  remote: git://github.com/hortoncd/linked-list-tail-rb.git
+  revision: 1b4ca427a8e7e8b7fb8c5529b4b12761ba2e69dd
+  branch: master
+  specs:
+    linked_list_tail (0.1.0)
+
+PATH
+  remote: .
+  specs:
+    queue_simple (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    diff-lcs (1.2.5)
+    docile (1.1.5)
+    json (2.0.2)
+    rake (12.3.3)
+    rspec (3.5.0)
+      rspec-core (~> 3.5.0)
+      rspec-expectations (~> 3.5.0)
+      rspec-mocks (~> 3.5.0)
+    rspec-core (3.5.3)
+      rspec-support (~> 3.5.0)
+    rspec-expectations (3.5.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.5.0)
+    rspec-mocks (3.5.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.5.0)
+    rspec-support (3.5.0)
+    simplecov (0.12.0)
+      docile (~> 1.1.0)
+      json (>= 1.8, < 3)
+      simplecov-html (~> 0.10.0)
+    simplecov-html (0.10.0)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  bundler (> 1.17)
+  linked_list_tail!
+  queue_simple!
+  rake (~> 12.3.3)
+  rspec (~> 3.5)
+  simplecov (>= 0.12.0)
+
+BUNDLED WITH
+   1.17.2
